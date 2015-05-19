@@ -1,0 +1,5 @@
+name: Dart Cli Editor
+description: A simple Cli editor made with dart language
+dependencies:
+  args: any
+  console: any
