@@ -19,5 +19,5 @@ This app has only been tested on linux and I can not say wether it will work on 
   3. Enjoy!
   
 <b>Method 2:</b>
-  1. Run "main.dart" directly
+  1. Run "main.dart" directly with dart vm
 
