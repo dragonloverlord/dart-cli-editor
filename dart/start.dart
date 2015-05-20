@@ -4,6 +4,9 @@ import 'dart:io';
 
 import 'package:console/console.dart';
 
+import 'birth.dart';
+import 'birth_bad.dart';
+
 String userInput = 'blank';
 
 
@@ -18,7 +21,7 @@ class Start{
       userInput = Console.readLine();
       userInput = userInput.toLowerCase();
       if(userInput == 'yes'){
-        // not done yet
+        Birth.main();
       }else if(userInput == 'no'){
         longer();
       }else if(userInput == 'exit'){
@@ -38,7 +41,7 @@ class Start{
       userInput = Console.readLine();
       userInput = userInput.toLowerCase();
       if(userInput == 'yes'){
-        // not done yet
+        Birth.main();
       }else if(userInput == 'no'){
         toLong();
       }else if(userInput == 'exit'){
@@ -58,9 +61,9 @@ class Start{
       userInput = Console.readLine();
       userInput = userInput.toLowerCase();
       if(userInput == 'yes'){
-        // not done yet
+        Birth.main();
       }else if(userInput == 'no'){
-        // not done yet
+        BirthBad.main();
       }else if(userInput == 'exit'){
         exit(0);
       }else{
