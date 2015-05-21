@@ -1,4 +1,4 @@
-library main.start;
+library dart.start;
 
 import 'dart:io';
 

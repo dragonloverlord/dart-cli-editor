@@ -1,5 +1,11 @@
-name: Dart Cli Editor
+name: dart-life
+version: 0.1.0
 description: A simple Cli editor made with dart language
+author: dragonloverlord
+homepage: https://github.com/dragonloverlord/dart-cli-life
+documentation: https://github.com/dragonloverlord/dart-cli-life/wiki
 dependencies:
   args: any
   console: any
+executables:
+  dart-life: start
